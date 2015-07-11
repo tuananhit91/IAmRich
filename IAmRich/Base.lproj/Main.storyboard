@@ -23,13 +23,9 @@
                                     <constraint firstAttribute="height" constant="337" id="kFa-8b-NKz"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="I AM RICH" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKQ-X9-P3d">
-                                <rect key="frame" x="110" y="547" width="101" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I AM RICH" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iKQ-X9-P3d">
+                                <rect key="frame" x="112" y="527" width="96" height="24"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="Gdi-Ua-Oc0"/>
-                                    <constraint firstAttribute="width" constant="101" id="elc-p7-gpl"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.50141559520000001" blue="0.3206243178" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -38,8 +34,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="aNq-vp-ThY" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="56" id="DTr-Zx-rYR"/>
+                            <constraint firstItem="iKQ-X9-P3d" firstAttribute="top" secondItem="aNq-vp-ThY" secondAttribute="bottom" constant="114" id="Pvl-yw-KmG"/>
                             <constraint firstAttribute="centerX" secondItem="aNq-vp-ThY" secondAttribute="centerX" id="W4S-kg-elU"/>
-                            <constraint firstAttribute="centerX" secondItem="iKQ-X9-P3d" secondAttribute="centerX" id="ies-BR-kVe"/>
+                            <constraint firstAttribute="centerX" secondItem="iKQ-X9-P3d" secondAttribute="centerX" id="mKM-Hl-nU5"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
